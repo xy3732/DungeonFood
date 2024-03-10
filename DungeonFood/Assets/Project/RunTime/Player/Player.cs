@@ -60,8 +60,6 @@ public class Player : MonoBehaviour
     {
         animator.SetBool("isMove",true);
 
-        Debug.Log(velocity);
-
         if (Input.GetKey(KeyCode.S))
         {
             velocity = (velocity + Vector3.down).normalized;
