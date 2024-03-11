@@ -2,17 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UiManager : MonoBehaviour
+public class UiManager : Singleton<UiManager>
 {
-    // Start is called before the first frame update
-    void Start()
+    private static UiManager inst;
+
+    public static CutEffectManager cutEffect;
+    private void Awake()
     {
-        
+        cutEffect = GetComponent<CutEffectManager>();
+
+        DontDestroySet();
     }
 
-    // Update is called once per frame
-    void Update()
+    // 씬 로드시 오브젝트 삭제 방지
+    private void DontDestroySet()
     {
-        
+        if (inst == null)
+        {
+            inst = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 }
