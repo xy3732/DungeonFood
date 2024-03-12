@@ -6,7 +6,13 @@ using DG.Tweening;
 
 public class CmSector : MonoBehaviour
 {
-    private GameObject childObject;  
+    private GameObject childObject;
+
+    [field: Header("Map Data")]
+    [field: SerializeField] private string mapName;
+
+    [field: Header("Map Effect")]
+    [field: SerializeField] private GameObject mapEffectObject;
 
     private void Awake()
     {
@@ -22,7 +28,11 @@ public class CmSector : MonoBehaviour
             return;
         }
 
+        // ÇØ´ç ¸Ê¿¡ µé¾î°¡¸é ¸ÊÀÌ¸§ ¶ç¿ì±â
+        UiManager.instance.MapTextUI.Set(mapName);
+
         childObject.SetActive(true);
+        mapEffectObject?.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -33,5 +43,6 @@ public class CmSector : MonoBehaviour
         }
 
         childObject.SetActive(false);
+        mapEffectObject?.SetActive(false);
     }
 }
