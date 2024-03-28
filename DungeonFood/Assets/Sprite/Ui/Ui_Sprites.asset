@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c88e76926c9a64b92874e628e03a83, type: 3}
+  m_Name: Ui_Sprites
+  m_EditorClassIdentifier: 
+  m_Texture: {fileID: 2800000, guid: a029e4606c440574c8ebb2b683c8792f, type: 3}
+  m_Padding: 1
+  m_MaxSize: 4096
+  m_PackingMethod: 0
+  m_DefaultPivot: 0
+  m_DefaultCustomPivot: {x: 0.5, y: 0.5}
+  m_Sprites:
+  - source: {fileID: 21300000, guid: 61c590549267c11408251116bb3ce963, type: 3}
+    targetSprite: {fileID: -647198897923380784, guid: a029e4606c440574c8ebb2b683c8792f, type: 3}
+  - source: {fileID: 21300000, guid: d7c2d4d4be7e0154c83b97fee29aaf73, type: 3}
+    targetSprite: {fileID: -8565116134925976182, guid: a029e4606c440574c8ebb2b683c8792f, type: 3}
+  - source: {fileID: 21300000, guid: f5a9718bf709e4345a694a257e159f6b, type: 3}
+    targetSprite: {fileID: 3321317910608699559, guid: a029e4606c440574c8ebb2b683c8792f, type: 3}
+  - source: {fileID: 21300000, guid: 2d3e3afd37f8c0541a0acc1ebf60f006, type: 3}
+    targetSprite: {fileID: 1085351538088072786, guid: a029e4606c440574c8ebb2b683c8792f, type: 3}
+  - source: {fileID: 21300000, guid: c80929eb5ad11824c9bcfca104bcd891, type: 3}
+    targetSprite: {fileID: 8417420941954122440, guid: a029e4606c440574c8ebb2b683c8792f, type: 3}
+  - source: {fileID: 21300000, guid: de9fb087fba8d70418a414d8e7e79c65, type: 3}
+    targetSprite: {fileID: 7220648799473819815, guid: a029e4606c440574c8ebb2b683c8792f, type: 3}
+  - source: {fileID: 21300000, guid: 7544da4827a0e694daf985bd6066ebd7, type: 3}
+    targetSprite: {fileID: 1245327002858156023, guid: a029e4606c440574c8ebb2b683c8792f, type: 3}
+  - source: {fileID: 21300000, guid: f1c41d6f1b08b3e4faa78340eefdcb11, type: 3}
+    targetSprite: {fileID: -1624478163499893136, guid: a029e4606c440574c8ebb2b683c8792f, type: 3}
+  - source: {fileID: 21300000, guid: 9f114b934cd4af1449dbeac76ddfeaf2, type: 3}
+    targetSprite: {fileID: -5927054679800228797, guid: a029e4606c440574c8ebb2b683c8792f, type: 3}
+  m_PendingActions: []

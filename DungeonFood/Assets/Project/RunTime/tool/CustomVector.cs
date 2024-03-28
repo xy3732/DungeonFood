@@ -23,13 +23,4 @@ namespace GamePix.CustomVector
         To,
         From
     }
-
-    public struct UiVector3
-    {
-        public static Vector3 Top { get { return new Vector3(0, Screen.height + 100, 0); } }
-        public static Vector3 Down { get { return new Vector3(0, -(Screen.height + 100), 0); } }
-        public static Vector3 Left { get { return new Vector3(-(Screen.width + 100), 0, 0); } }
-        public static Vector3 Right { get { return new Vector3(Screen.width + 100, 0, 0); } }
-        public static Vector3 Center { get { return Vector3.zero; } }
-    }
 }

@@ -124,8 +124,8 @@ TextureImporter:
         y: 0
         width: 22
         height: 37
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -138,15 +138,36 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shiroko_Idle_1
+      name: shiroko_move_4
       rect:
         serializedVersion: 2
         x: 0
         y: 38
         width: 22
         height: 37
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f8ae6bb897f2a60800000000000000
+      internalID: 7651467932902002459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shiroko_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 22
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +183,12 @@ TextureImporter:
       name: shiroko_Idle_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 76
+        x: 23
+        y: 0
         width: 22
         height: 37
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,11 +205,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 23
-        y: 0
+        y: 38
         width: 22
         height: 37
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,22 +222,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shiroko_move_0
+      name: shiroko_move_5
       rect:
         serializedVersion: 2
         x: 23
-        y: 38
+        y: 76
         width: 22
         height: 37
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70adda4f6fdedbe00800000000000000
-      internalID: 1062266732052077063
+      spriteID: 018481ebcf608d240800000000000000
+      internalID: 4816607484063533072
       vertices: []
       indices: 
       edges: []
@@ -225,12 +246,12 @@ TextureImporter:
       name: shiroko_move_1
       rect:
         serializedVersion: 2
-        x: 23
-        y: 76
+        x: 46
+        y: 0
         width: 22
         height: 37
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,11 +268,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 46
-        y: 0
+        y: 38
         width: 22
         height: 37
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,11 +289,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 46
-        y: 38
+        y: 76
         width: 22
         height: 37
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -285,34 +306,34 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shiroko_move_4
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 76
-        width: 22
-        height: 37
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b1f8ae6bb897f2a60800000000000000
-      internalID: 7651467932902002459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shiroko_move_5
+      name: shiroko_move_0
       rect:
         serializedVersion: 2
         x: 69
         y: 0
         width: 22
         height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70adda4f6fdedbe00800000000000000
+      internalID: 1062266732052077063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shiroko_gun_UI
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 27
+        height: 13
       alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,8 +341,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 018481ebcf608d240800000000000000
-      internalID: 4816607484063533072
+      spriteID: e493ce36c0012b670800000000000000
+      internalID: 8552916287732070734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shiroko_gun
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 114
+        width: 27
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9379354ceef784d20800000000000000
+      internalID: 3262998593502680889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: None
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5a74347d76aa470800000000000000
+      internalID: 8406645828684850602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneShadow
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 114
+        width: 32
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891ed9f9f5a7e0530800000000000000
+      internalID: 3823127684802535832
       vertices: []
       indices: 
       edges: []
@@ -330,8 +414,8 @@ TextureImporter:
       name: shadow
       rect:
         serializedVersion: 2
-        x: 0
-        y: 114
+        x: 56
+        y: 121
         width: 13
         height: 4
       alignment: 9
@@ -351,8 +435,8 @@ TextureImporter:
       name: shiroko_hand_left
       rect:
         serializedVersion: 2
-        x: 0
-        y: 119
+        x: 70
+        y: 121
         width: 4
         height: 4
       alignment: 9
@@ -372,8 +456,8 @@ TextureImporter:
       name: shiroko_hand_right
       rect:
         serializedVersion: 2
-        x: 5
-        y: 119
+        x: 75
+        y: 121
         width: 4
         height: 4
       alignment: 9
@@ -389,6 +473,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Bullet_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 2
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47656d65394e6ae10800000000000000
+      internalID: 2208703988740019828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -400,12 +505,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      shiroko_Idle_1: 3783082857687426236
       shiroko_Idle_3: -7101481778047331922
+      shiroko_Idle_1: 3783082857687426236
       shadow: -209143576518600603
+      DroneShadow: 3823127684802535832
       shiroko_Idle_2: -3614123973004852074
       shiroko_move_2: 5033419068343208081
       shiroko_move_1: -3714124954151603835
+      None: 8406645828684850602
+      Bullet_0: 2208703988740019828
       shiroko_Idle_0: 7476990878311286472
       shiroko_hand_right: 8561296645812072517
       shiroko_move_4: 7651467932902002459
@@ -413,6 +521,8 @@ TextureImporter:
       shiroko_move_5: 4816607484063533072
       shiroko_move_0: 1062266732052077063
       shiroko_move_3: 3027524053627479886
+      shiroko_gun_UI: 8552916287732070734
+      shiroko_gun: 3262998593502680889
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

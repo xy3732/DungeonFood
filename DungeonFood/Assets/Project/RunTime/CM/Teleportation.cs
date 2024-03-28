@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-using GamePix.CustomVector;
+using GamePix.Ui;
 
 public class Teleportation : MonoBehaviour
 {
@@ -86,6 +86,8 @@ public class Teleportation : MonoBehaviour
             .OnComplete(() => 
             {
                 other.transform.position = toMove.position;
+                GameManager.instance.vCamMouseTarget.transform.position = toMove.position;
+
                 UiManager.cutEffect.CenterTo(transEnd, Ease.InCirc); 
             });
     }

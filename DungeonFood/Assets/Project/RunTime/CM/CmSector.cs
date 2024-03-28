@@ -42,6 +42,8 @@ public class CmSector : MonoBehaviour
             return;
         }
 
+        UiManager.instance.firstIn = true;
+
         childObject.SetActive(false);
         mapEffectObject?.SetActive(false);
     }

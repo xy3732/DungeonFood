@@ -5,7 +5,7 @@ using UnityEngine;
 
 using GamePix.CustomVector;
 
-public class Player : MonoBehaviour
+public class Player : Singleton<Player>
 {
     private PlayerInput playerInput;
     private Rigidbody2D rigid;
@@ -37,22 +37,15 @@ public class Player : MonoBehaviour
     private void Move(Vector3 dir)
     {
         Vector3 velocity = MoveTo(dir);
-        Flip();
 
         // 6 - 플레이어 이동 속도 (scriptableObject data로 만들예정)
         rigid.MovePosition(rigid.position + (Vector2)velocity * 6 * Time.smoothDeltaTime );
     }
 
-    private void Flip()
+    // 스프라이트 플립
+    public void FlipSprite(Vector3 flip)
     {
-        if(Input.GetKey(KeyCode.A))
-        {
-            transform.localScale = FlipVector3.Left;
-        }
-        if(Input.GetKey(KeyCode.D)) 
-        {
-            transform.localScale = FlipVector3.Right;
-        }
+        transform.localScale = flip;
     }
 
     // 캐릭터 이동 로직
